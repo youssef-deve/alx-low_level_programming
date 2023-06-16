@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * Description: program prints alphabet whitout specific caracter
+ * description: alphabet lowercase and uppercase
  *
- * Return: always (0) success
+ * Return: Always (0) success
  */
 
 int main(void)
@@ -13,14 +13,14 @@ int main(void)
 	char ch = 'a';
 
 	while (ch <= 'z')
-{
+	{
 		if (ch == 'e' || ch == 'q')
 			ch++;
-			putchar(ch);
-			ch++;
-}
-		putchar('\n');
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
 
-		return (0);
+	return (0);
 }
 
