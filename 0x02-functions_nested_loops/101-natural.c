@@ -18,7 +18,7 @@ int main(void)
 		if ((num / 3 == 0) || (num % 5 == 0))
 			sum += num;
 	}
-	printf("%d\n", sim);
+	printf("%d\n", sum);
 
 	return (0);
 }
