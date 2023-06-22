@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * print_triangle - function that prints a triangle, followed by a new line.
-  * @size: int type number
-  * Return: void
-  */
+* print_triangle - function that prints a triangle, followed by a new line.
+* @size: int type number
+* Return: void
+*/
 
 void print_triangle(int size)
 {
